@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "action":{
+            "type":"redirect",
+            "redirect":{
+                "transform":{
+                    "queryTransform":{
+                        "addOrReplaceParams":[
+                            {
+                                "key":"rh",
+                                "value":"p_6%3AAN1VRQENFRJN5"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "condition":{
+            "urlFilter":"s?k=",
+            "initiatorDomains" : ["amazon.co.jp"],
+            "resourceTypes":[
+                "main_frame"
+            ]
+        }
+    }
+]
